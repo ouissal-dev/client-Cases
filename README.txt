@@ -4,18 +4,19 @@ This application provides a REST API for managing client cases and messages. It 
 *** Installation ***
 
 ==>Prerequisites
-    Java 11 or 17
+    Java 17
     Maven
+    Spring boot
 
 ==>Steps
-    Clone the repository: git clone https://github.com/ouissal-dev/client-Cases.git
+    Clone the repository: git clone -b master https://github.com/ouissal-dev/client-Cases.git
     Navigate to the project directory: cd <project-directory>
     Build the project using Maven: mvn clean package
 
 ==> Running the Application
     After building the project, you can run the application using the generated JAR file. Make sure to configure the server port in the application.properties file if needed.
 
-    java -jar target/<jar-file-name>.jar
+    java -jar target/exchangeMsg-0.0.1-SNAPSHOT.jar
 
 ==>Access the API at:
     http://localhost:8088/
@@ -78,3 +79,10 @@ To retrieve all client cases, use the following endpoint:
     URL: /client-cases
     Method: GET
     Response: A list of all client cases
+
+==> Dependencies :
+    Spring Boot Starter Web
+    Spring Boot Starter Test
+    Spring REST Docs MockMVC
+    Lombok
+    Springdoc OpenAPI Starter WebMVC UI
