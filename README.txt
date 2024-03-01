@@ -8,7 +8,7 @@ This application provides a REST API for managing client cases and messages. It 
     Maven
 
 ==>Steps
-    Clone the repository: git clone <repository-url>
+    Clone the repository: git clone https://github.com/ouissal-dev/client-Cases.git
     Navigate to the project directory: cd <project-directory>
     Build the project using Maven: mvn clean package
 
